@@ -7,14 +7,6 @@ buttonDown.addEventListener('click',downVelocity)
 buttonUp.addEventListener('click',upVelocity)
 buttonMode.addEventListener('click',mudaModo)
 function mudaModo(){
-    console.log(newFire.debug)
-    if(!newFire.debug){
-        newFire.width = 10
-        newFire.height = 10
-    }else{
-        newFire.width = 80;
-        newFire.height = 80;
-    }
     newFire.debug = !newFire.debug
     newFire.start()
 }

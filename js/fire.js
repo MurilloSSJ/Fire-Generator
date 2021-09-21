@@ -15,7 +15,6 @@ class FireDoom{
         this.looping = null;
     }
     start(){
-        console.log(this.velocidade)
         if(this.looping != null){
             clearInterval(this.looping)
         }
